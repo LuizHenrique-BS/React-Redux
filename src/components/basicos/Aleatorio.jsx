@@ -1,7 +1,7 @@
 import React from "react";
 
 export default function Aleatorio(props) {
-  const { min, max } = props; // destruction
+  const { min, max } = props; // destructuring
   return (
     <div>
       <p>
