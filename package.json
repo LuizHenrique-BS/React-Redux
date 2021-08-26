@@ -21,7 +21,17 @@
     "extends": [
       "react-app",
       "react-app/jest"
-    ]
+    ],
+    "import/no-anonymous-default-export": ["error", {
+      "allowArray": false,
+      "allowArrowFunction": true,
+      "allowAnonymousClass": true,
+      "allowAnonymousFunction": false,
+      "allowCallExpression": true,
+      "allowLiteral": false,
+      "allowObject": false
+    }]
+    
   },
   "browserslist": {
     "production": [
@@ -34,5 +44,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-plugin-react": "^7.24.0"
   }
 }
