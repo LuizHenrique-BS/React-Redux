@@ -1,3 +1,4 @@
+/* eslint-disable import/no-anonymous-default-export */
 import React from "react";
 
 import './App.css'
@@ -12,22 +13,22 @@ export default () => (
     <h1>Fundamentos React</h1>
 
     <div className="Cards">
-      <Card titulo="#04 - Desafio Aleatório">
+      <Card titulo="#04 - Desafio Aleatório" color="#FA6900">
         <Aleatorio max={60} min={1} />
       </Card>
 
-      <Card titulo="#03 - Fragmento">
+      <Card titulo="#03 - Fragmento" color="#E94C6F">
         <Fragmento />
       </Card>
 
-      <Card titulo="#02 - Com Parâmetro">
+      <Card titulo="#02 - Com Parâmetro" color="#E8B71A">
         <ComParametro
           titulo="Situação do Aluno"
           aluno="Pedro Silva"
           nota={8.3}
         />
       </Card>
-      <Card titulo="#01 - Primeiro Componente">
+      <Card titulo="#01 - Primeiro Componente" color="#588C73">
         <Primeiro></Primeiro>
       </Card>
     </div>
