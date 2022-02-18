@@ -1,6 +1,6 @@
-/* eslint-disable import/no-anonymous-default-export */
 import React from "react";
 import alunos from "../../data/alunos";
+/* eslint-disable import/no-anonymous-default-export */
 
 export default (props) => {
   const li1 = (
