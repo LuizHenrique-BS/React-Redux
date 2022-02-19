@@ -1,7 +1,8 @@
 /* eslint-disable import/no-anonymous-default-export */
 import React from "react";
 
-import './App.css';
+import "./App.css";
+import UsuarioInfo from "./components/condicional/UsuarioInfo";
 import ParOuImpar from "./components/condicional/ParOuImpar";
 import Familia from "./components/basicos/Familia";
 import TabelaProdutos from "./components/repeticao/TabelaProdutos";
@@ -20,6 +21,8 @@ export default () => (
     <div className="Cards">
       <Card titulo="#08 - Renderização Condicional" color="#982395">
         <ParOuImpar numero={21}></ParOuImpar>
+        <UsuarioInfo usuario={{ nome: "Fernando" }} />
+        <UsuarioInfo usuario={{ email: "fe@nando.com" }} />
       </Card>
 
       <Card titulo="#07 - Desafio Repetição - Resposta" color="#667292">
