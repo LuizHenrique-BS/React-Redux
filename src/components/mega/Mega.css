@@ -1,11 +1,24 @@
+/* para inserir estilos dentro do react se usa styledComponent */
+
 .Mega input{
   font-size: 1.4rem;
-  width: 60px;
+  width: 50px;
+}
+
+.Mega label{
+  margin-right: 10px;
 }
 
 .Mega button{
-  margin: 10px;
-  border-radius: 15%;
+  margin: 15px;
+  border-radius: 10%;
 
   font-size: 1.4rem;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
 }

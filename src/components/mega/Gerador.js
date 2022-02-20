@@ -39,4 +39,6 @@ function gNumeros(qtde) {
       console.log([...nums, novoNumero]) // operador spread
       return [ ...nums, novoNumero]
     }, [])
+    .sort((n1, n2) => n1 - n2);
+  return numeros;
 } */
